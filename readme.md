@@ -11,3 +11,7 @@ Usare un alert di Bootstrap (il componente HTML/CSS, non alert JS) per mostrare 
 ## Milestone 2
 
 Spostare la logica del programma dentro _functions.php_ utilizzando la direttiva _include_
+
+## Bonus
+
+Invece di visualizzare il messaggio di success nella index.php, in caso di esito positivo effettuare un redirect ad una _thank you_ page dove usiamo la session per mostrare anche l'indirizzo email con cui ci siamo "registrati".
