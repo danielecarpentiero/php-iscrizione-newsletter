@@ -14,7 +14,7 @@
         <form>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Iscriviti alla newsletter!</label>
-                <input type="text" action="index.php" method="GET" class="form-control" id="subscribe" name="subscribe" <?php if (isset($_GET['subscribe'])) {
+                <input type="text" action="index.php" method="GET" class="form-control" id="subscribe" name="subscribe"><?php if (isset($_GET['subscribe'])) {
                                                                                                                             $email = $_GET['subscribe'];
                                                                                                                             if (str_contains($email, '@') && str_contains($email, '.')) {
                                                                                                                                 echo '<div class="alert alert-success" role="alert">
@@ -24,8 +24,7 @@
                                                                                                                                 echo '<div class="alert alert-danger" role="alert">
                                                                                                                                 Errore! Inserisci una mail con caratteri validi.
                                                                                                                               </div>';
-                                                                                                                        } ?> </h2>
-                <?php  ?>
+                                                                                                                        } ?> <?php  ?>
             </div>
         </form>
     </div>
