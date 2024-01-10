@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container d-flex justify-content-center">
         <form>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Iscriviti alla newsletter!</label>
-                <input type="text" action="index.php" method="GET" class="form-control" id="subscribe" name="subscribe"><?php include 'functions.php' ?>
+                <label for="exampleInputEmail1" class="form-label my-4">Iscriviti alla newsletter!</label>
+                <input type="text" action="index.php" method="GET" class="form-control mb-4" id="subscribe" name="subscribe"><?php include 'functions.php' ?>
             </div>
         </form>
     </div>
